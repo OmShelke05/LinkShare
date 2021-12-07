@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(161, 175, 37, 0.603);
+}
+
+.Title {
+  text-align: center;
+  font-size: 200%;
+  padding: 10px;
+}
+
+.Information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
+  gap: 10%;
+  justify-content: center;
+}
+
+.Information input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.Information button {
+  width: 50%;
+  margin-left: 35%;
+  height: 30px;
+}
+
+.Information button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.Notes {
+  text-align:center;
+}
